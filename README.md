@@ -16,13 +16,13 @@
     <img alt="maven" src="https://img.shields.io/maven-central/v/org.apache.maven/apache-maven.svg">
   </a>
   <a href="#">
-   <img alt="code style" src="https://img.shields.io/badge/%20LICENSE-GPL--2.0-blue.svg">
+   <img alt="code style" src="https://img.shields.io/badge/%20LICENSE-AGPL--3.0-blue.svg">
   </a>
   <a href="#">
    <img alt="code style" src="https://img.shields.io/badge/BUILD-PASSING-green.svg">
   </a>
   <a href="http://git.oschina.net/seagull1985/LuckyFrameWeb/releases">
-   <img src="https://img.shields.io/badge/LuckyFrame-V3.0 releases-green.svg" >
+   <img src="https://img.shields.io/badge/LuckyFrame-V3.2.1 releases-green.svg" >
   </a>
 </p>
 
@@ -68,11 +68,14 @@
 ![任务执行](https://images.gitee.com/uploads/images/2019/0611/173555_74ee4629_1215415.jpeg "任务执行.jpg")
 ![用例明细](https://images.gitee.com/uploads/images/2019/0611/173617_f3c5e38d_1215415.jpeg "用例明细.jpg")
 
+# 用户手册
+> [【直达官网查看最新用户手册】](http://www.luckyframe.cn/book/yhsc/syschyy-24.html)
+
 # 版本更新
 > [【直达官网查看版本更新文章】](http://www.luckyframe.cn/dynamic.html)
 
 # 大家安静下，我再说一句
-此项目是LuckyFrame客户端项目，此外还有一个LuckyFrameWeb的项目做为服务端，如果您只需要先看看界面，那么单独下载LuckyFrameWeb项目就够了，如果您需要搭建整套环境，那还要把此LuckyFrame客户端项目下载下来。
+> 此项目是LuckyFrame客户端项目，此外还有一个[【LuckyFrameWeb项目】](https://gitee.com/seagull1985/LuckyFrameWeb)做为服务端，如果您只需要先看看界面，那么单独下载LuckyFrameWeb项目就够了，如果您需要搭建整套环境，那还要把此LuckyFrame客户端项目下载下来。
 
 # 期待您更多的意见
 
