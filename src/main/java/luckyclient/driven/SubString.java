@@ -404,7 +404,7 @@ public class SubString {
             			jsonString = (String)result;
             		}    		
             	}else{                	
-            		jsonString=JsonPath.parse(jsonString).read(expression);
+            		jsonString=JsonPath.parse(jsonString).read(expression).toString();
             	}
         	}catch(PathNotFoundException pnfe){
         		LogUtil.APP.error("通过jsonPath获取JSON字符串指定值出现异常，没有找到对应参数路径，请确认JSON字符串【{}】表达式是否正确【{}】！",jsonString,expression);

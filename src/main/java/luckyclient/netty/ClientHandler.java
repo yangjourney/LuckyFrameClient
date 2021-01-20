@@ -52,6 +52,7 @@ public class ClientHandler extends ChannelHandlerAdapter {
 
     private static final String SERVER_PORT = SysConfig.getConfiguration().getProperty("server.web.port");
 
+    public static Integer clientId=-1;
 
     private volatile int lastLength = 0;
 
@@ -113,7 +114,7 @@ public class ClientHandler extends ChannelHandlerAdapter {
             sendMessage(re.toString());
         } else if ("download".equals(json.get("method"))) {
             String loadpath = json.get("path").toString();
-            String path = System.getProperty("user.dir") + loadpath;
+            String path = RunService.APPLICATION_HOME + loadpath;
             String fileName = json.get("fileName").toString();
             //发出http请求下载文件
             try {
@@ -141,7 +142,7 @@ public class ClientHandler extends ChannelHandlerAdapter {
                 @SuppressWarnings("unchecked")
 				Map<String, Object> jsonparams = (Map<String, Object>) json.get("data");
                 String fileName = jsonparams.get("imgName").toString();
-                String ctxPath = System.getProperty("user.dir") + File.separator + "log" + File.separator + "ScreenShot" + File.separator + fileName;
+                String ctxPath = RunService.APPLICATION_HOME + File.separator + "log" + File.separator + "ScreenShot" + File.separator + fileName;
                 File file = new File(ctxPath);
                 int start = Integer.parseInt(json.get("start").toString());
                 FileUploadFile fileUploadFile = new FileUploadFile();
@@ -200,7 +201,11 @@ public class ClientHandler extends ChannelHandlerAdapter {
                 re.put("data", result);
                 sendMessage(re.toString());
             }
-
+        }
+        else if("loginReturn".equals(json.get("method")))
+        {
+            //设置client标记
+            clientId=Integer.valueOf(json.get("clientId").toString());
         }
 
     }

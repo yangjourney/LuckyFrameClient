@@ -4,7 +4,7 @@
 
 	<groupId>LuckyFrameClient</groupId>
 	<artifactId>LuckyFrameClient</artifactId>
-	<version>3.2.1</version>
+	<version>3.3</version>
 	<packaging>jar</packaging>
 
 	<name>LuckyFrameClient</name>
@@ -269,7 +269,7 @@
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
-			<version>1.2.58</version>
+			<version>1.2.70</version>
 		</dependency>
 		<!-- 获取系统信息 -->
 		<dependency>
@@ -322,6 +322,10 @@
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
 		</dependency>
 	</dependencies>
 	<!--排除版本管理警告-->
