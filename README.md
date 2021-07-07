@@ -12,17 +12,17 @@
 </p>
  
 <p align="center">
-  <a href="#">
-    <img alt="maven" src="https://img.shields.io/maven-central/v/org.apache.maven/apache-maven.svg">
+  <a href="https://gitee.com/seagull1985/LuckyFrameClient/stargazers">
+    <img alt="GVP" src="https://gitee.com/seagull1985/LuckyFrameClient/badge/star.svg?theme=gvp">
   </a>
   <a href="#">
-   <img alt="code style" src="https://img.shields.io/badge/%20LICENSE-GPL--2.0-blue.svg">
+   <img alt="code style" src="https://img.shields.io/badge/%20LICENSE-AGPL--3.0-blue.svg">
   </a>
   <a href="#">
    <img alt="code style" src="https://img.shields.io/badge/BUILD-PASSING-green.svg">
   </a>
   <a href="http://git.oschina.net/seagull1985/LuckyFrameWeb/releases">
-   <img src="https://img.shields.io/badge/LuckyFrame-V3.0 releases-green.svg" >
+   <img src="https://img.shields.io/badge/LuckyFrame-V3.4 releases-green.svg" >
   </a>
 </p>
 
@@ -36,8 +36,9 @@
 # 介绍
 
 **LuckyFrame 开源自动化测试平台 - 自动化测试 X 时代来了**
-> LuckyFrame QQ官方交流群 487954492
-<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=32919cc1ee8595efa4c561920f3fdb606606ca8fdb6ff6b2430c5d97587551de"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="LuckyFrame自动化测试" title="LuckyFrame自动化测试"></a> 
+> QQ官方交流①群(即将满群) 487954492 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=WXalHSZwm5LotDLOyBMDJ8Y8AihyrSgJ&jump_from=webapi"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="LuckyFrame官方交流①群" title="LuckyFrame官方交流①群"></a>
+
+> QQ官方交流②群(火速加入,推荐) 552149398 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=iQQnUSj952rB3b-3qeRCi3vugVoJ0XLK&jump_from=webapi"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="LuckyFrame官方交流②群" title="LuckyFrame官方交流②群"></a>
  
 **LuckyFrame测试平台公众号  欢迎关注**
 > <img alt="扫一扫公众号吧" src="https://gitee.com/uploads/images/2018/0108/100931_2a461a5d_1215415.jpeg">
@@ -68,11 +69,14 @@
 ![任务执行](https://images.gitee.com/uploads/images/2019/0611/173555_74ee4629_1215415.jpeg "任务执行.jpg")
 ![用例明细](https://images.gitee.com/uploads/images/2019/0611/173617_f3c5e38d_1215415.jpeg "用例明细.jpg")
 
+# 用户手册
+> [【直达官网查看最新用户手册】](http://www.luckyframe.cn/book/yhsc/syschyy-24.html)
+
 # 版本更新
 > [【直达官网查看版本更新文章】](http://www.luckyframe.cn/dynamic.html)
 
 # 大家安静下，我再说一句
-此项目是LuckyFrame客户端项目，此外还有一个LuckyFrameWeb的项目做为服务端，如果您只需要先看看界面，那么单独下载LuckyFrameWeb项目就够了，如果您需要搭建整套环境，那还要把此LuckyFrame客户端项目下载下来。
+> 此项目是LuckyFrame客户端项目，此外还有一个[【LuckyFrameWeb项目】](https://gitee.com/seagull1985/LuckyFrameWeb)做为服务端，如果您只需要先看看界面，那么单独下载LuckyFrameWeb项目就够了，如果您需要搭建整套环境，那还要把此LuckyFrame客户端项目下载下来。
 
 # 期待您更多的意见
 
